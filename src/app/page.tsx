@@ -49,22 +49,22 @@ export default function LandingPage() {
           ]}
           carouselItems={[
             {
-              id: "carousel-1",              imageSrc: "http://img.b2bpic.net/free-photo/fried-doner-lavash-with-french-fries_140725-4671.jpg?_wi=1",              imageAlt: "Найсоковитіша шаурма"
+              id: "carousel-1",              imageSrc: "http://img.b2bpic.net/free-photo/fried-doner-lavash-with-french-fries_140725-4671.jpg",              imageAlt: "Найсоковитіша шаурма"
             },
             {
-              id: "carousel-2",              imageSrc: "http://img.b2bpic.net/free-photo/tortilla-wraps-with-meat-fresh-vegetables_2829-15993.jpg?_wi=1",              imageAlt: "Класична шаурма"
+              id: "carousel-2",              imageSrc: "http://img.b2bpic.net/free-photo/tortilla-wraps-with-meat-fresh-vegetables_2829-15993.jpg",              imageAlt: "Класична шаурма"
             },
             {
-              id: "carousel-3",              imageSrc: "http://img.b2bpic.net/free-photo/side-view-chicken-doner-wrapped-lavash-served-with-lentil-merci-soup-ayran-drink-wooden-board_140725-12783.jpg?_wi=1",              imageAlt: "Сирна шаурма"
+              id: "carousel-3",              imageSrc: "http://img.b2bpic.net/free-photo/side-view-chicken-doner-wrapped-lavash-served-with-lentil-merci-soup-ayran-drink-wooden-board_140725-12783.jpg",              imageAlt: "Сирна шаурма"
             },
             {
-              id: "carousel-4",              imageSrc: "http://img.b2bpic.net/free-photo/close-up-person-holding-tasty-mexican-food_23-2148329068.jpg?_wi=1",              imageAlt: "Гостра шаурма"
+              id: "carousel-4",              imageSrc: "http://img.b2bpic.net/free-photo/close-up-person-holding-tasty-mexican-food_23-2148329068.jpg",              imageAlt: "Гостра шаурма"
             },
             {
-              id: "carousel-5",              imageSrc: "http://img.b2bpic.net/free-photo/fried-doner-lavash-with-french-fries_140725-4671.jpg?_wi=2",              imageAlt: "Апетитна шаурма"
+              id: "carousel-5",              imageSrc: "http://img.b2bpic.net/free-photo/fried-doner-lavash-with-french-fries_140725-4671.jpg",              imageAlt: "Апетитна шаурма"
             },
             {
-              id: "carousel-6",              imageSrc: "http://img.b2bpic.net/free-photo/tortilla-wraps-with-meat-fresh-vegetables_2829-15993.jpg?_wi=2",              imageAlt: "Свіжа шаурма"
+              id: "carousel-6",              imageSrc: "http://img.b2bpic.net/free-photo/tortilla-wraps-with-meat-fresh-vegetables_2829-15993.jpg",              imageAlt: "Свіжа шаурма"
             }
           ]}
           autoPlay={true}
@@ -80,7 +80,7 @@ export default function LandingPage() {
             { icon: Pizza, label: "Багато начинки", value: "Щедро" },
             { icon: Zap, label: "Швидке обслуговування", value: "15 хв" }
           ]}
-          metricsAnimation="entrance-slide"
+          metricsAnimation="slide-up"
           useInvertedBackground={false}
         />
       </div>
@@ -95,13 +95,13 @@ export default function LandingPage() {
           animationType="slide-up"
           products={[
             {
-              id: "classic",              name: "Класична шаурма",              price: "170 грн",              imageSrc: "http://img.b2bpic.net/free-photo/tortilla-wraps-with-meat-fresh-vegetables_2829-15993.jpg?_wi=3",              imageAlt: "Класична шаурма"
+              id: "classic",              name: "Класична шаурма",              price: "170 грн",              imageSrc: "http://img.b2bpic.net/free-photo/tortilla-wraps-with-meat-fresh-vegetables_2829-15993.jpg",              imageAlt: "Класична шаурма"
             },
             {
-              id: "cheese",              name: "Шаурма з сиром",              price: "195 грн",              imageSrc: "http://img.b2bpic.net/free-photo/side-view-chicken-doner-wrapped-lavash-served-with-lentil-merci-soup-ayran-drink-wooden-board_140725-12783.jpg?_wi=2",              imageAlt: "Шаурма з сиром"
+              id: "cheese",              name: "Шаурма з сиром",              price: "195 грн",              imageSrc: "http://img.b2bpic.net/free-photo/side-view-chicken-doner-wrapped-lavash-served-with-lentil-merci-soup-ayran-drink-wooden-board_140725-12783.jpg",              imageAlt: "Шаурма з сиром"
             },
             {
-              id: "assorted",              name: "Асорті",              price: "225 грн",              imageSrc: "http://img.b2bpic.net/free-photo/close-up-person-holding-tasty-mexican-food_23-2148329068.jpg?_wi=2",              imageAlt: "Асорті"
+              id: "assorted",              name: "Асорті",              price: "225 грн",              imageSrc: "http://img.b2bpic.net/free-photo/close-up-person-holding-tasty-mexican-food_23-2148329068.jpg",              imageAlt: "Асорті"
             }
           ]}
           buttons={[{ text: "Замовити", href: "#cta" }]}
